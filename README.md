@@ -85,7 +85,6 @@ class StudentManagementSystem:
     def display_student(student):
         print(f"ID: {student.id}, Name: {student.name}, Age: {student.age}, Major: {student.major}")
 
-# Simple text-based menu system
 def main_menu():
     system = StudentManagementSystem(StudentDatabase())
     while True:
